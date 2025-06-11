@@ -1,0 +1,41 @@
+{
+  "name": "proxy-scraper",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Powerful Node.js tool to automatically collect, validate, and store SOCKS5 proxies from multiple online sources",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/cli.js",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "keywords": [
+    "proxy",
+    "scraper",
+    "socks5",
+    "puppeteer",
+    "automation"
+  ],
+  "author": "Pedro Dalla Costa <pedrosdc2013@gmail.com>",
+  "license": "ISC",
+  "packageManager": "pnpm@9.7.0+sha1.8f12c476122faede7aed9a2126ef551c0dc65d7e",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "dotenv": "^16.5.0",
+    "puppeteer": "^24.10.0",
+    "socks-proxy-agent": "^8.0.5",
+    "winston": "^3.17.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroDallaCosta/proxy-scraper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PedroDallaCosta/proxy-scraper/issues"
+  },
+  "homepage": "https://github.com/PedroDallaCosta/proxy-scraper#readme",
+  "devDependencies": {
+    "eslint": "^9.28.0"
+  }
+}
